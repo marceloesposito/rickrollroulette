@@ -2,7 +2,7 @@
   <head>
     <script>
       function redirect() {
-        var randomNumber = Math.floor(Math.random() * 4) + 1;
+        var randomNumber = Math.random(getRandomInt(4)) + 1;
         if (randomNumber === 4) {
           window.location.replace("https://www.youtube.com/watch?v=xvFZjo5PgG0");
         } else {
